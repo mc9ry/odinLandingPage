@@ -1,0 +1,96 @@
+.logo{
+    width: 50px;
+    height: 50px; 
+}
+
+.header-pic{
+    width: 600px; 
+    display: flex;
+    justify-content: right;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0; 
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    
+    
+}
+
+.header{
+    background-color: gray;
+    padding: 20px; 
+    
+}
+
+.content{
+    display: flex;
+   gap: 10px; 
+   margin: 5px;
+    
+}
+
+.right-links{
+    display: flex;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+button{
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 1px 5px;
+ 
+}
+
+.heading-para {
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+ 
+}
+
+.section2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image2-section{
+    display: flex;
+    gap: 15px;      
+    
+}
+
+.section2-pics {
+    width: 150px; 
+    
+
+    
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
